@@ -4,7 +4,6 @@ let isDrawing = false;
 let colorsDiv = document.getElementById("colors");
 let board = document.getElementById("board");
 let clearButton = document.getElementById("clear");
-let saveButton = document.getElementById("save");
 
 // Create colors
 
@@ -48,9 +47,3 @@ clearButton.addEventListener("click", function() {
         squares[i].style.backgroundColor = "white";
     }
 });
-
-//save image
-
-saveButton.addEventListener("click", function() {
-    let squares = document.createEl
-})
